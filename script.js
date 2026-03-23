@@ -23,5 +23,7 @@ function calcularIMC() {
         resultado.textContent = `${nome}, seu IMC é ${imc.toFixed(2)} e você está com obesidade grau II.`
     } else if (imc >= 40) {
         resultado.textContent = `${nome}, seu IMC é ${imc.toFixed(2)} e você está com obesidade grau III.`
+    } else {
+        resultado.textContent = "Por favor, preencha todos os campos corretamente."
     }
 }
